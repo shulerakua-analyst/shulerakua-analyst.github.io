@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background-color: #f4f6f8;
@@ -28,10 +31,23 @@ main {
   margin: 40px auto;
   padding: 0 24px;
 }
+nav {
+  margin-top: 28px;
+}
 
+nav a {
+  color: white;
+  margin-right: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c49a4a;
+}
 section {
   background-color: white;
   padding: 32px;
+  margin-bottom: 24px;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
